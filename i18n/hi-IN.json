@@ -77,7 +77,7 @@
 				"errorToast": "प्रोजेक्ट बनाने में विफल"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "नया वर्कस्पेस बनाएँ",
 				"description": "अपने वर्कस्पेस के लिए नाम देकर एक नया वर्कस्पेस बनाएँ।",
 				"namePlaceholder": "वर्कस्पेस का नाम",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "निमंत्रण स्वीकार करने में विफल",
 				"acceptSuccess": "निमंत्रण स्वीकार किया! टीम में स्वागत है।"
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "bizcore FLOW में आपका स्वागत है",

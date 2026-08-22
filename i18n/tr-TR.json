@@ -77,7 +77,7 @@
 				"errorToast": "Proje oluşturulamadı"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Yeni çalışma alanı oluştur",
 				"description": "Çalışma alanınız için bir ad girerek yeni bir çalışma alanı oluşturun.",
 				"namePlaceholder": "Çalışma alanı adı",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Davet kabul edilemedi",
 				"acceptSuccess": "Davet kabul edildi! Aramıza hoş geldiniz."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "bizcore FLOW'ya Hoş Geldiniz",
@@ -944,7 +946,7 @@
 				"removeError": "Genel webhook entegrasyonu kaldırılamadı"
 			},
 			"connectionTitle": "Giden webhook bağlantısı",
-			"connectionHint": "Talep olaylarını kendi uç noktanıza JSON olarak gönderin. Bir gizli anahtar yapılandırıldığında imzalı bir X-bizcore FLOW-Signature başlığı dahil edilir.",
+			"connectionHint": "Talep olaylarını kendi uç noktanıza JSON olarak gönderin. Bir gizli anahtar yapılandırıldığında imzalı bir X-Kaneo-Signature başlığı dahil edilir.",
 			"connected": "Bağlı",
 			"paused": "Duraklatıldı",
 			"webhookLabel": "Uç nokta URL'si",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW, etkinleştirilen her olay için JSON yükü ile POST istekleri gönderir.",
 			"secretLabel": "İmzalama gizli anahtarı",
 			"secretPlaceholder": "İsteğe bağlı paylaşılan gizli anahtar",
-			"secretHint": "İsteğe bağlı. Sağlanırsa, bizcore FLOW istek gövdesini imzalar ve hex özetini X-bizcore FLOW-Signature başlığında gönderir.",
+			"secretHint": "İsteğe bağlı. Sağlanırsa, bizcore FLOW istek gövdesini imzalar ve hex özetini X-Kaneo-Signature başlığında gönderir.",
 			"secretHintConfigured": "Bir imzalama gizli anahtarı zaten yapılandırılmış ({{secret}}). Değiştirmek için yeni bir tane girin.",
 			"eventsTitle": "Olay bildirimleri",
 			"eventsHint": "Hangi proje değişikliklerinin giden webhook'ları tetikleyeceğini seçin.",

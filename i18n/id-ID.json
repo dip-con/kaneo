@@ -77,7 +77,7 @@
 				"errorToast": "Gagal membuat proyek"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Buat ruang kerja baru",
 				"description": "Buat ruang kerja baru dengan memberikan nama untuk ruang kerja Anda.",
 				"namePlaceholder": "Nama ruang kerja",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Gagal menerima undangan",
 				"acceptSuccess": "Undangan diterima! Selamat bergabung dengan tim."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Selamat datang di bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Gagal menghapus integrasi webhook generik"
 			},
 			"connectionTitle": "Koneksi webhook keluar",
-			"connectionHint": "Kirim event tugas ke endpoint Anda sendiri sebagai JSON. Header X-bizcore FLOW-Signature yang ditandatangani disertakan saat rahasia dikonfigurasi.",
+			"connectionHint": "Kirim event tugas ke endpoint Anda sendiri sebagai JSON. Header X-Kaneo-Signature yang ditandatangani disertakan saat rahasia dikonfigurasi.",
 			"connected": "Terhubung",
 			"paused": "Dijeda",
 			"webhookLabel": "URL endpoint",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW mengirim request POST dengan payload JSON untuk setiap event yang diaktifkan.",
 			"secretLabel": "Rahasia penandatanganan",
 			"secretPlaceholder": "Rahasia bersama opsional",
-			"secretHint": "Opsional. Jika diberikan, bizcore FLOW menandatangani body request dan mengirim digest hex di header X-bizcore FLOW-Signature.",
+			"secretHint": "Opsional. Jika diberikan, bizcore FLOW menandatangani body request dan mengirim digest hex di header X-Kaneo-Signature.",
 			"secretHintConfigured": "Rahasia penandatanganan sudah dikonfigurasi ({{secret}}). Masukkan yang baru untuk menggantinya.",
 			"eventsTitle": "Notifikasi event",
 			"eventsHint": "Pilih perubahan proyek yang harus memicu webhook keluar.",

@@ -77,7 +77,7 @@
 				"errorToast": "Projekt konnte nicht erstellt werden"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Neuen Workspace erstellen",
 				"description": "Erstelle einen neuen Workspace, indem du einen Namen dafür angibst.",
 				"namePlaceholder": "Workspace-Name",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Einladung konnte nicht angenommen werden",
 				"acceptSuccess": "Einladung angenommen! Willkommen im Team."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Willkommen bei bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Generische Webhook-Integration konnte nicht entfernt werden"
 			},
 			"connectionTitle": "Ausgehende Webhook-Verbindung",
-			"connectionHint": "Sende Aufgabenereignisse als JSON an deinen eigenen Endpunkt. Wenn ein Secret konfiguriert ist, wird ein signierter X-bizcore FLOW-Signature-Header mitgesendet.",
+			"connectionHint": "Sende Aufgabenereignisse als JSON an deinen eigenen Endpunkt. Wenn ein Secret konfiguriert ist, wird ein signierter X-Kaneo-Signature-Header mitgesendet.",
 			"connected": "Verbunden",
 			"paused": "Pausiert",
 			"webhookLabel": "Endpunkt-URL",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW sendet POST-Anfragen mit einer JSON-Nutzlast für jedes aktivierte Ereignis.",
 			"secretLabel": "Signatur-Secret",
 			"secretPlaceholder": "Optionales gemeinsames Secret",
-			"secretHint": "Optional. Wenn gesetzt, signiert bizcore FLOW den Request-Body und sendet den Hex-Digest im Header X-bizcore FLOW-Signature.",
+			"secretHint": "Optional. Wenn gesetzt, signiert bizcore FLOW den Request-Body und sendet den Hex-Digest im Header X-Kaneo-Signature.",
 			"secretHintConfigured": "Ein Signatur-Secret ist bereits konfiguriert ({{secret}}). Gib ein neues ein, um es zu ersetzen.",
 			"eventsTitle": "Ereignisbenachrichtigungen",
 			"eventsHint": "Wähle aus, welche Projektänderungen ausgehende Webhooks auslösen sollen.",

@@ -77,7 +77,7 @@
 				"errorToast": "Не вдалося створити проєкт"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Створити новий робочий простір",
 				"description": "Створіть новий робочий простір, вказавши його назву.",
 				"namePlaceholder": "Назва робочого простору",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Не вдалося прийняти запрошення",
 				"acceptSuccess": "Запрошення прийнято! Ласкаво просимо до команди."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Ласкаво просимо до bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Не вдалося видалити загальний вебхук"
 			},
 			"connectionTitle": "Підключення вихідного вебхука",
-			"connectionHint": "Надсилайте події завдань на вашу кінцеву точку у форматі JSON. Підписаний заголовок X-bizcore FLOW-Signature включається, коли секрет налаштовано.",
+			"connectionHint": "Надсилайте події завдань на вашу кінцеву точку у форматі JSON. Підписаний заголовок X-Kaneo-Signature включається, коли секрет налаштовано.",
 			"connected": "Підключено",
 			"paused": "Призупинено",
 			"webhookLabel": "URL кінцевої точки",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW надсилає POST-запити з JSON-тілом для кожної увімкненої події.",
 			"secretLabel": "Секрет підпису",
 			"secretPlaceholder": "Необов'язковий спільний секрет",
-			"secretHint": "Необов'язково. Якщо вказано, bizcore FLOW підписує тіло запиту та надсилає hex-дайджест у заголовку X-bizcore FLOW-Signature.",
+			"secretHint": "Необов'язково. Якщо вказано, bizcore FLOW підписує тіло запиту та надсилає hex-дайджест у заголовку X-Kaneo-Signature.",
 			"secretHintConfigured": "Секрет підпису вже налаштовано ({{secret}}). Введіть новий, щоб замінити його.",
 			"eventsTitle": "Сповіщення про події",
 			"eventsHint": "Оберіть, які зміни в проєкті мають ініціювати вихідні вебхуки.",

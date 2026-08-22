@@ -77,7 +77,7 @@
 				"errorToast": "Αποτυχία δημιουργίας έργου"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Δημιουργία νέου χώρου εργασίας",
 				"description": "Δημιουργήστε έναν νέο χώρο εργασίας ορίζοντας ένα όνομα.",
 				"namePlaceholder": "Όνομα χώρου εργασίας",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Αποτυχία αποδοχής πρόσκλησης",
 				"acceptSuccess": "Η πρόσκληση έγινε αποδεκτή! Καλώς ήρθατε στην ομάδα."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Καλώς ήρθατε στο bizcore FLOW",
@@ -933,7 +935,7 @@
 		"genericWebhookIntegration": {
 			"connect": "Σύνδεση webhook",
 			"connected": "Συνδεδεμένο",
-			"connectionHint": "Στείλτε γεγονότα εργασιών στο δικό σας endpoint ως JSON. Περιλαμβάνεται υπογεγραμμένη κεφαλίδα X-bizcore FLOW-Signature όταν έχει ρυθμιστεί μυστικό.",
+			"connectionHint": "Στείλτε γεγονότα εργασιών στο δικό σας endpoint ως JSON. Περιλαμβάνεται υπογεγραμμένη κεφαλίδα X-Kaneo-Signature όταν έχει ρυθμιστεί μυστικό.",
 			"connectionTitle": "Σύνδεση εξερχόμενου webhook",
 			"disconnect": "Αποσύνδεση",
 			"events": {
@@ -954,7 +956,7 @@
 			"eventsTitle": "Ειδοποιήσεις γεγονότων",
 			"paused": "Σε παύση",
 			"saveChanges": "Αποθήκευση αλλαγών",
-			"secretHint": "Προαιρετικό. Αν δοθεί, το bizcore FLOW υπογράφει το σώμα του αιτήματος και στέλνει το hex digest στην κεφαλίδα X-bizcore FLOW-Signature.",
+			"secretHint": "Προαιρετικό. Αν δοθεί, το bizcore FLOW υπογράφει το σώμα του αιτήματος και στέλνει το hex digest στην κεφαλίδα X-Kaneo-Signature.",
 			"secretHintConfigured": "Έχει ήδη ρυθμιστεί ένα μυστικό υπογραφής ({{secret}}). Εισαγάγετε ένα νέο για να το αντικαταστήσετε.",
 			"secretLabel": "Μυστικό υπογραφής",
 			"secretPlaceholder": "Προαιρετικό κοινόχρηστο μυστικό",

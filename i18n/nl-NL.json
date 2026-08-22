@@ -77,7 +77,7 @@
 				"errorToast": "Aanmaken van project mislukt"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Een nieuwe werkruimte aanmaken",
 				"description": "Maak een nieuwe werkruimte aan door een naam op te geven.",
 				"namePlaceholder": "Naam werkruimte",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Accepteren van uitnodiging mislukt",
 				"acceptSuccess": "Uitnodiging geaccepteerd! Welkom bij het team."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Welkom bij bizcore FLOW",
@@ -765,7 +767,7 @@
 				"removeError": "Verwijderen generieke webhook-integratie mislukt"
 			},
 			"connectionTitle": "Uitgaande webhook-verbinding",
-			"connectionHint": "Stuur taakgebeurtenissen naar je eigen eindpunt als JSON. Een ondertekende 'X-bizcore FLOW-Signature' header wordt meegezonden wanneer er een geheim is geconfigureerd.",
+			"connectionHint": "Stuur taakgebeurtenissen naar je eigen eindpunt als JSON. Een ondertekende 'X-Kaneo-Signature' header wordt meegezonden wanneer er een geheim is geconfigureerd.",
 			"connected": "Verbonden",
 			"paused": "Gepauzeerd",
 			"webhookLabel": "Eindpunt-URL (Endpoint URL)",
@@ -773,7 +775,7 @@
 			"webhookHint": "bizcore FLOW verzendt POST-verzoeken met een JSON-payload voor elke ingeschakelde gebeurtenis.",
 			"secretLabel": "Ondertekeningsgeheim (Signing secret)",
 			"secretPlaceholder": "Optioneel gedeeld geheim",
-			"secretHint": "Optioneel. Indien opgegeven, ondertekent bizcore FLOW de verzoektekst en verzendt de hex-digest in de 'X-bizcore FLOW-Signature' header.",
+			"secretHint": "Optioneel. Indien opgegeven, ondertekent bizcore FLOW de verzoektekst en verzendt de hex-digest in de 'X-Kaneo-Signature' header.",
 			"secretHintConfigured": "Er is al een ondertekeningsgeheim geconfigureerd ({{secret}}). Voer een nieuwe in om deze te vervangen.",
 			"eventsTitle": "Gebeurtenis-meldingen",
 			"eventsHint": "Kies welke projectwijzigingen uitgaande webhooks moeten activeren.",

@@ -77,7 +77,7 @@
 				"errorToast": "Échec de la création du projet"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Créer un nouvel espace de travail",
 				"description": "Créez un nouvel espace de travail en lui donnant un nom.",
 				"namePlaceholder": "Nom de l'espace de travail",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Échec de l'acceptation de l'invitation",
 				"acceptSuccess": "Invitation acceptée! Bienvenue dans l'équipe."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Bienvenue sur bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Échec de la suppression de l'intégration webhook générique"
 			},
 			"connectionTitle": "Connexion webhook sortant",
-			"connectionHint": "Envoyez les événements de tâche en JSON vers votre propre point de terminaison. Un en-tête signé X-bizcore FLOW-Signature est inclus lorsqu'un secret est configuré.",
+			"connectionHint": "Envoyez les événements de tâche en JSON vers votre propre point de terminaison. Un en-tête signé X-Kaneo-Signature est inclus lorsqu'un secret est configuré.",
 			"connected": "Connecté",
 			"paused": "En pause",
 			"webhookLabel": "URL du point de terminaison",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW envoie des requêtes POST avec une charge JSON pour chaque événement activé.",
 			"secretLabel": "Secret de signature",
 			"secretPlaceholder": "Secret partagé facultatif",
-			"secretHint": "Facultatif. Si défini, bizcore FLOW signe le corps de la requête et envoie le digest hexadécimal dans l'en-tête X-bizcore FLOW-Signature.",
+			"secretHint": "Facultatif. Si défini, bizcore FLOW signe le corps de la requête et envoie le digest hexadécimal dans l'en-tête X-Kaneo-Signature.",
 			"secretHintConfigured": "Un secret de signature est déjà configuré ({{secret}}). Entrez-en un nouveau pour le remplacer.",
 			"eventsTitle": "Notifications d'événements",
 			"eventsHint": "Choisissez les changements de projet qui déclenchent les webhooks sortants.",

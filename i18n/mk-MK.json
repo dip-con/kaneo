@@ -77,7 +77,7 @@
 				"errorToast": "Неуспешно креирање на проект"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Креирај нов работен простор",
 				"description": "Креирај нов работен простор со внесување на име.",
 				"namePlaceholder": "Име на работен простор",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Неуспешно прифаќање на поканата",
 				"acceptSuccess": "Поканата е прифатена! Добредојде во тимот."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Добредојде на bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Не успеа отстранувањето на општиот webhook"
 			},
 			"connectionTitle": "Излезен webhook",
-			"connectionHint": "Испрати настани за задачи како JSON до твојот endpoint. Кога е поставена тајна, се испраќа потпис X-bizcore FLOW-Signature.",
+			"connectionHint": "Испрати настани за задачи како JSON до твојот endpoint. Кога е поставена тајна, се испраќа потпис X-Kaneo-Signature.",
 			"connected": "Поврзано",
 			"paused": "Паузирано",
 			"webhookLabel": "URL на endpoint",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW испраќа POST барања со JSON за секој овозможен настан.",
 			"secretLabel": "Тајна за потпис",
 			"secretPlaceholder": "Опционална заедничка тајна",
-			"secretHint": "Опционално. Ако е поставена, bizcore FLOW го потпишува телото на барањето и го испраќа hex-от во X-bizcore FLOW-Signature.",
+			"secretHint": "Опционално. Ако е поставена, bizcore FLOW го потпишува телото на барањето и го испраќа hex-от во X-Kaneo-Signature.",
 			"secretHintConfigured": "Тајна за потпис веќе е конфигурирана ({{secret}}). Внеси нова за да ја замениш.",
 			"eventsTitle": "Известувања за настани",
 			"eventsHint": "Избери кои промени на проектот да го активираат излезниот webhook.",

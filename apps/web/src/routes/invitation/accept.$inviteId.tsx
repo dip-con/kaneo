@@ -232,6 +232,23 @@ function AcceptInvitation() {
               </p>
             </div>
 
+            {session.user.email?.toLowerCase() !==
+              invitation.email?.toLowerCase() && (
+              <Alert variant="error">
+                <AlertCircle className="h-4 w-4" />
+                <AlertDescription>
+                  <Trans
+                    i18nKey="auth:invitation.emailMismatchWarning"
+                    values={{
+                      email: invitation.email,
+                      current: session.user.email,
+                    }}
+                    components={{ email: <strong />, current: <strong /> }}
+                  />
+                </AlertDescription>
+              </Alert>
+            )}
+
             <div className="space-y-3 pt-2">
               <Button
                 onClick={handleAcceptInvitation}
@@ -301,6 +318,17 @@ function AcceptInvitation() {
               {t("auth:invitation.createAccountOrSignIn")}
             </p>
           </div>
+
+          <Alert>
+            <AlertCircle className="h-4 w-4" />
+            <AlertDescription>
+              <Trans
+                i18nKey="auth:invitation.emailRequiredNotice"
+                values={{ email: invitation.email }}
+                components={{ email: <strong /> }}
+              />
+            </AlertDescription>
+          </Alert>
 
           <div className="space-y-3 pt-2">
             <Button onClick={handleCreateAccount} className="w-full">

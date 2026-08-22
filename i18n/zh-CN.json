@@ -77,7 +77,7 @@
 				"errorToast": "项目创建失败"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "创建新工作区",
 				"description": "为你的工作区提供一个名称即可创建。",
 				"namePlaceholder": "工作区名称",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "接受邀请失败",
 				"acceptSuccess": "邀请已接受，欢迎加入团队！"
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "欢迎使用 bizcore FLOW",
@@ -1106,7 +1108,7 @@
 				"removeError": "移除通用 Webhook 集成失败"
 			},
 			"connectionTitle": "出站 Webhook 连接",
-			"connectionHint": "将任务事件以 JSON 形式发送到你的端点。配置密钥后会包含带签名的 X-bizcore FLOW-Signature 头。",
+			"connectionHint": "将任务事件以 JSON 形式发送到你的端点。配置密钥后会包含带签名的 X-Kaneo-Signature 头。",
 			"connected": "已连接",
 			"paused": "已暂停",
 			"webhookLabel": "端点 URL",
@@ -1114,7 +1116,7 @@
 			"webhookHint": "bizcore FLOW 会为每个已启用的事件发送带 JSON 负载的 POST 请求。",
 			"secretLabel": "签名密钥",
 			"secretPlaceholder": "可选的共享密钥",
-			"secretHint": "可选。提供后，bizcore FLOW 会对请求体进行签名，并通过 X-bizcore FLOW-Signature 头发送十六进制摘要。",
+			"secretHint": "可选。提供后，bizcore FLOW 会对请求体进行签名，并通过 X-Kaneo-Signature 头发送十六进制摘要。",
 			"secretHintConfigured": "已配置签名密钥（{{secret}}），输入新密钥以替换。",
 			"eventsTitle": "事件通知",
 			"eventsHint": "选择哪些项目变更会触发出站 Webhook。",

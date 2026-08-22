@@ -77,7 +77,7 @@
 				"errorToast": "Hubo un error al crear el proyecto"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Crear un nuevo espacio de trabajo",
 				"description": "Crea un nuevo espacio de trabajo eligiendo un nombre.",
 				"namePlaceholder": "Nombre del espacio de trabajo",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Error al aceptar la invitación",
 				"acceptSuccess": "¡Invitación aceptada! Bienvenido al equipo."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Bienvenido a bizcore FLOW",
@@ -765,7 +767,7 @@
 				"removeError": "Error al eliminar la integración con webhook"
 			},
 			"connectionTitle": "Conexión de sálida a un webhook",
-			"connectionHint": "Envía eventos de las tareas a tu propio webhook como JSON. Una cabecera X-bizcore FLOW-Signature se incluye si el secreto está configurado.",
+			"connectionHint": "Envía eventos de las tareas a tu propio webhook como JSON. Una cabecera X-Kaneo-Signature se incluye si el secreto está configurado.",
 			"connected": "Conectado",
 			"paused": "Pausado",
 			"webhookLabel": "URL del webhook",
@@ -773,7 +775,7 @@
 			"webhookHint": "bizcore FLOW envía requests POST como JSON para cada evento activo.",
 			"secretLabel": "Secreto para la firma",
 			"secretPlaceholder": "Secreto opcional",
-			"secretHint": "Opcional. Si está configurado, bizcore FLOW envía el cuerpo de la petición y añade la cabecera X-bizcore FLOW-Signature.",
+			"secretHint": "Opcional. Si está configurado, bizcore FLOW envía el cuerpo de la petición y añade la cabecera X-Kaneo-Signature.",
 			"secretHintConfigured": "Ya hay un secreto configurado ({{secret}}). Introduce uno nuevo para reemplazarlo.",
 			"eventsTitle": "Notificaciones de eventos",
 			"eventsHint": "Elige qué cambios en el proyecto deben ser notificados a través de webhooks.",

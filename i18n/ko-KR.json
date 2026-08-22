@@ -77,7 +77,7 @@
 				"errorToast": "프로젝트 생성에 실패했습니다"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "새 워크스페이스 만들기",
 				"description": "워크스페이스 이름을 지정하여 새 워크스페이스를 만듭니다.",
 				"namePlaceholder": "워크스페이스 이름",
@@ -267,10 +267,12 @@
 			"toast": {
 				"acceptFailed": "초대 수락에 실패했습니다",
 				"acceptSuccess": "초대가 수락되었습니다! 팀에 오신 것을 환영합니다."
-			}
+			},
+			"emailRequiredNotice": "이 초대는 <email>{{email}}</email> 전용입니다. 반드시 이 이메일 주소로 가입해야 합니다.",
+			"emailMismatchWarning": "현재 <current>{{current}}</current> 계정으로 로그인되어 있습니다. 이 초대는 <email>{{email}}</email> 전용이므로, 초대받은 이메일로 로그인한 뒤 수락해 주세요."
 		},
 		"onboarding": {
-			"pageTitle": "Kaneo에 오신 것을 환영합니다",
+			"pageTitle": "bizcore FLOW에 오신 것을 환영합니다",
 			"workspacePageTitle": "워크스페이스 만들기",
 			"createWorkspaceTitle": "워크스페이스 만들기",
 			"createWorkspaceSubtitle": "프로젝트를 관리하기 위해 워크스페이스를 설정하세요",
@@ -362,7 +364,7 @@
 		"notificationsPage": {
 			"pageTitle": "알림",
 			"title": "알림",
-			"subtitle": "Kaneo가 계정 알림을 전달하는 방법과 사용할 채널을 선택합니다.",
+			"subtitle": "bizcore FLOW가 계정 알림을 전달하는 방법과 사용할 채널을 선택합니다.",
 			"statusConnected": "연결됨",
 			"statusPaused": "일시 중지됨",
 			"emailTitle": "이메일",
@@ -398,7 +400,7 @@
 			"webhookUrlPlaceholder": "https://example.com/webhooks/kaneo",
 			"webhookSecretPlaceholder": "선택 사항 - 공유 시크릿",
 			"webhookSecretHintConfigured": "서명 시크릿이 이미 구성되어 있습니다 ({{masked}}). 교체하려면 새 시크릿을 입력하세요.",
-			"webhookSecretHintOptional": "선택 사항. 시크릿이 설정된 경우 Kaneo가 요청 본문에 서명합니다.",
+			"webhookSecretHintOptional": "선택 사항. 시크릿이 설정된 경우 bizcore FLOW가 요청 본문에 서명합니다.",
 			"connectWebhook": "웹훅 연결",
 			"workspaceRulesTitle": "워크스페이스 전송 규칙",
 			"workspaceRulesDescription": "전역 채널을 재사용한 후 어떤 워크스페이스와 프로젝트가 계정 알림을 보낼 수 있는지 결정합니다.",
@@ -507,7 +509,7 @@
 			"title": "개발자 설정",
 			"subtitle": "API 키와 개발자 리소스를 관리합니다.",
 			"apiKeysCardTitle": "API 키",
-			"apiKeysCardDescription": "Kaneo에 프로그래밍 방식으로 접근하기 위한 API 키를 만들고 관리합니다.",
+			"apiKeysCardDescription": "bizcore FLOW에 프로그래밍 방식으로 접근하기 위한 API 키를 만들고 관리합니다.",
 			"createApiKey": "API 키 만들기",
 			"unnamedKey": "이름 없는 키"
 		},
@@ -738,7 +740,7 @@
 				"removeError": "GitHub 연동 제거에 실패했습니다",
 				"issuesImported": "이슈를 가져왔습니다",
 				"importError": "이슈 가져오기에 실패했습니다",
-				"commentOnEnabled": "Kaneo가 새 이슈에 작업 링크를 포함한 댓글을 게시합니다",
+				"commentOnEnabled": "bizcore FLOW가 새 이슈에 작업 링크를 포함한 댓글을 게시합니다",
 				"commentOnDisabled": "새 이슈의 작업 링크 댓글이 꺼져 있습니다",
 				"settingsUpdateError": "GitHub 연동 업데이트에 실패했습니다"
 			},
@@ -750,7 +752,7 @@
 			"repository": "저장소",
 			"repositoryHint": "연결된 GitHub 저장소",
 			"commentTaskLinkTitle": "새 이슈에 bizcore FLOW 링크 댓글 달기",
-			"commentTaskLinkHint": "활성화하면 Kaneo가 새 GitHub 이슈마다 작업 링크가 포함된 댓글을 게시합니다.",
+			"commentTaskLinkHint": "활성화하면 bizcore FLOW가 새 GitHub 이슈마다 작업 링크가 포함된 댓글을 게시합니다.",
 			"appStatusTitle": "GitHub 앱 상태",
 			"appStatusHint": "설치 및 권한 상태",
 			"statusProperlyConfigured": "올바르게 구성됨",
@@ -801,7 +803,7 @@
 				"removeError": "Gitea 연동 제거에 실패했습니다",
 				"issuesImported": "이슈를 가져왔습니다",
 				"importError": "이슈 가져오기에 실패했습니다",
-				"commentOnEnabled": "Kaneo가 새 이슈에 작업 링크를 포함한 댓글을 게시합니다",
+				"commentOnEnabled": "bizcore FLOW가 새 이슈에 작업 링크를 포함한 댓글을 게시합니다",
 				"commentOnDisabled": "새 이슈의 작업 링크 댓글이 꺼져 있습니다",
 				"settingsUpdateError": "Gitea 연동 업데이트에 실패했습니다",
 				"secretCopied": "복사됨",
@@ -820,7 +822,7 @@
 			"repository": "저장소",
 			"repositoryHint": "연결된 Gitea 저장소",
 			"commentTaskLinkTitle": "새 이슈에 bizcore FLOW 링크 댓글 달기",
-			"commentTaskLinkHint": "활성화하면 Kaneo가 새 이슈마다 작업 링크가 포함된 댓글을 게시합니다.",
+			"commentTaskLinkHint": "활성화하면 bizcore FLOW가 새 이슈마다 작업 링크가 포함된 댓글을 게시합니다.",
 			"webhookTitle": "웹훅",
 			"webhookHint": "Gitea 저장소에서 이 URL과 시크릿으로 웹훅을 추가합니다. push, pull request, issues, issue comments 및 create(라벨용)를 활성화하세요.",
 			"webhookSecretLabel": "시크릿 (Gitea의 웹훅 시크릿과 일치해야 함)",
@@ -944,15 +946,15 @@
 				"removeError": "일반 웹훅 연동 제거에 실패했습니다"
 			},
 			"connectionTitle": "발신 웹훅 연결",
-			"connectionHint": "작업 이벤트를 자체 엔드포인트로 JSON 형식으로 전송합니다. 시크릿이 구성된 경우 서명된 X-bizcore FLOW-Signature 헤더가 포함됩니다.",
+			"connectionHint": "작업 이벤트를 자체 엔드포인트로 JSON 형식으로 전송합니다. 시크릿이 구성된 경우 서명된 X-Kaneo-Signature 헤더가 포함됩니다.",
 			"connected": "연결됨",
 			"paused": "일시 중지됨",
 			"webhookLabel": "엔드포인트 URL",
 			"webhookPlaceholder": "https://example.com/webhooks/kaneo",
-			"webhookHint": "Kaneo는 활성화된 각 이벤트에 대해 JSON 페이로드와 함께 POST 요청을 전송합니다.",
+			"webhookHint": "bizcore FLOW는 활성화된 각 이벤트에 대해 JSON 페이로드와 함께 POST 요청을 전송합니다.",
 			"secretLabel": "서명 시크릿",
 			"secretPlaceholder": "선택 사항 - 공유 시크릿",
-			"secretHint": "선택 사항. 입력하면 Kaneo가 요청 본문에 서명하고 16진수 다이제스트를 X-bizcore FLOW-Signature 헤더로 전송합니다.",
+			"secretHint": "선택 사항. 입력하면 bizcore FLOW가 요청 본문에 서명하고 16진수 다이제스트를 X-Kaneo-Signature 헤더로 전송합니다.",
 			"secretHintConfigured": "서명 시크릿이 이미 구성되어 있습니다 ({{secret}}). 교체하려면 새 시크릿을 입력하세요.",
 			"eventsTitle": "이벤트 알림",
 			"eventsHint": "발신 웹훅을 트리거할 프로젝트 변경 사항을 선택합니다.",
@@ -1958,10 +1960,10 @@
 	},
 	"invitations": {
 		"email": {
-			"subject": "{{inviterName}}님이 Kaneo의 {{workspaceName}}에 초대했습니다",
-			"preview": "Kaneo의 {{workspaceName}}에 초대되었습니다",
+			"subject": "{{inviterName}}님이 bizcore FLOW의 {{workspaceName}}에 초대했습니다",
+			"preview": "bizcore FLOW의 {{workspaceName}}에 초대되었습니다",
 			"title": "{{workspaceName}}에 참여하세요",
-			"subtitle": "{{inviterName}}님({{inviterEmail}})이 Kaneo에서 함께 협업하도록 초대했습니다.",
+			"subtitle": "{{inviterName}}님({{inviterEmail}})이 bizcore FLOW에서 함께 협업하도록 초대했습니다.",
 			"cta": "초대 수락",
 			"sameEmail": "이 메시지를 받은 이메일과 동일한 이메일로 수락할 수 있습니다.",
 			"ignore": "예상하지 못한 초대라면 이 이메일을 무시하셔도 됩니다.",

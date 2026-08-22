@@ -77,7 +77,7 @@
 				"errorToast": "Falha ao criar projeto"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Criar um novo espaço de trabalho",
 				"description": "Crie um novo espaço de trabalho fornecendo um nome para ele.",
 				"namePlaceholder": "Nome do espaço de trabalho",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Falha ao aceitar convite",
 				"acceptSuccess": "Convite aceito! Bem-vindo à equipe."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Bem-vindo ao bizcore FLOW",
@@ -1106,7 +1108,7 @@
 				"removeError": "Falha ao remover a integração de webhook genérico"
 			},
 			"connectionTitle": "Conexão de webhook de saída",
-			"connectionHint": "Envie eventos de tarefas para seu próprio endpoint como JSON. Um cabeçalho X-bizcore FLOW-Signature assinado é incluído quando um segredo é configurado.",
+			"connectionHint": "Envie eventos de tarefas para seu próprio endpoint como JSON. Um cabeçalho X-Kaneo-Signature assinado é incluído quando um segredo é configurado.",
 			"connected": "Conectado",
 			"paused": "Pausado",
 			"webhookLabel": "URL do endpoint",
@@ -1114,7 +1116,7 @@
 			"webhookHint": "O bizcore FLOW envia requisições POST com um payload JSON para cada evento ativado.",
 			"secretLabel": "Segredo de assinatura",
 			"secretPlaceholder": "Segredo compartilhado opcional",
-			"secretHint": "Opcional. Se fornecido, o bizcore FLOW assina o corpo da requisição e envia o resumo hexadecimal no cabeçalho X-bizcore FLOW-Signature.",
+			"secretHint": "Opcional. Se fornecido, o bizcore FLOW assina o corpo da requisição e envia o resumo hexadecimal no cabeçalho X-Kaneo-Signature.",
 			"secretHintConfigured": "Um segredo de assinatura já está configurado ({{secret}}). Digite um novo para substituí-lo.",
 			"eventsTitle": "Notificações de eventos",
 			"eventsHint": "Escolha quais alterações do projeto devem acionar webhooks de saída.",

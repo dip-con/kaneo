@@ -77,7 +77,7 @@
 				"errorToast": "Không thể tạo dự án"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Tạo không gian làm việc mới",
 				"description": "Tạo một không gian làm việc mới bằng cách đặt tên cho nó.",
 				"namePlaceholder": "Tên không gian làm việc",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Không thể chấp nhận lời mời",
 				"acceptSuccess": "Đã chấp nhận lời mời! Chào mừng bạn đến với nhóm."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Chào mừng đến với bizcore FLOW",
@@ -1106,7 +1108,7 @@
 				"removeError": "Không thể gỡ bỏ tích hợp webhook chung"
 			},
 			"connectionTitle": "Kết nối webhook gửi đi",
-			"connectionHint": "Gửi sự kiện công việc đến điểm cuối của riêng bạn dưới dạng JSON. Tiêu đề X-bizcore FLOW-Signature đã ký sẽ được thêm vào khi có cấu hình khóa bí mật.",
+			"connectionHint": "Gửi sự kiện công việc đến điểm cuối của riêng bạn dưới dạng JSON. Tiêu đề X-Kaneo-Signature đã ký sẽ được thêm vào khi có cấu hình khóa bí mật.",
 			"connected": "Đã kết nối",
 			"paused": "Đã tạm dừng",
 			"webhookLabel": "URL điểm cuối",
@@ -1114,7 +1116,7 @@
 			"webhookHint": "bizcore FLOW gửi yêu cầu POST với nội dung JSON cho mỗi sự kiện đã bật.",
 			"secretLabel": "Khóa bí mật ký",
 			"secretPlaceholder": "Khóa bí mật dùng chung (không bắt buộc)",
-			"secretHint": "Không bắt buộc. Nếu được cung cấp, bizcore FLOW sẽ ký nội dung yêu cầu và gửi mã băm hex trong tiêu đề X-bizcore FLOW-Signature.",
+			"secretHint": "Không bắt buộc. Nếu được cung cấp, bizcore FLOW sẽ ký nội dung yêu cầu và gửi mã băm hex trong tiêu đề X-Kaneo-Signature.",
 			"secretHintConfigured": "Đã cấu hình khóa bí mật ký ({{secret}}). Nhập khóa mới để thay thế.",
 			"eventsTitle": "Thông báo sự kiện",
 			"eventsHint": "Chọn thay đổi dự án nào sẽ kích hoạt webhook gửi đi.",

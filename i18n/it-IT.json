@@ -77,7 +77,7 @@
 				"errorToast": "Creazione progetto fallita"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Crea un nuovo workspace",
 				"description": "Crea un nuovo workspace fornendo un nome.",
 				"namePlaceholder": "Nome workspace",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Accettazione invito fallita",
 				"acceptSuccess": "Invito accettato! Benvenuto nel team."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Benvenuto su bizcore FLOW",
@@ -1106,7 +1108,7 @@
 				"removeError": "Rimozione integrazione webhook generico fallita"
 			},
 			"connectionTitle": "Connessione webhook in uscita",
-			"connectionHint": "Invia eventi delle attività al tuo endpoint come JSON. Un'intestazione X-bizcore FLOW-Signature firmata è inclusa quando viene configurato un segreto.",
+			"connectionHint": "Invia eventi delle attività al tuo endpoint come JSON. Un'intestazione X-Kaneo-Signature firmata è inclusa quando viene configurato un segreto.",
 			"connected": "Connesso",
 			"paused": "In pausa",
 			"webhookLabel": "URL Endpoint",
@@ -1114,7 +1116,7 @@
 			"webhookHint": "bizcore FLOW invia richieste POST con un payload JSON per ogni evento abilitato.",
 			"secretLabel": "Segreto di firma",
 			"secretPlaceholder": "Segreto condiviso opzionale",
-			"secretHint": "Opzionale. Se fornito, bizcore FLOW firma il corpo della richiesta e invia l'hex digest nell'intestazione X-bizcore FLOW-Signature.",
+			"secretHint": "Opzionale. Se fornito, bizcore FLOW firma il corpo della richiesta e invia l'hex digest nell'intestazione X-Kaneo-Signature.",
 			"secretHintConfigured": "Un segreto di firma è già configurato ({{secret}}). Inseriscine uno nuovo per sostituirlo.",
 			"eventsTitle": "Notifiche eventi",
 			"eventsHint": "Scegli quali modifiche del progetto dovrebbero attivare webhook in uscita.",

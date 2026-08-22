@@ -77,7 +77,7 @@
 				"errorToast": "Не удалось создать проект"
 			},
 			"createWorkspace": {
-				"breadcrumbKaneo": "KANEO",
+				"breadcrumbKaneo": "BIZCORE FLOW",
 				"title": "Создать новую рабочую область",
 				"description": "Создайте новую рабочую область, указав её название.",
 				"namePlaceholder": "Название рабочей области",
@@ -267,7 +267,9 @@
 			"toast": {
 				"acceptFailed": "Не удалось принять приглашение",
 				"acceptSuccess": "Приглашение принято! Добро пожаловать в команду."
-			}
+			},
+			"emailRequiredNotice": "This invitation is for <email>{{email}}</email> only. You must sign up with this exact email address.",
+			"emailMismatchWarning": "You are signed in as <current>{{current}}</current>, but this invitation is for <email>{{email}}</email>. Sign in with the invited email to accept."
 		},
 		"onboarding": {
 			"pageTitle": "Добро пожаловать в bizcore FLOW",
@@ -944,7 +946,7 @@
 				"removeError": "Не удалось удалить пользовательский вебхук"
 			},
 			"connectionTitle": "Исходящий вебхук",
-			"connectionHint": "Отправляйте события задач на ваш эндпоинт в формате JSON. Подписанный заголовок X-bizcore FLOW-Signature включается, если настроен секрет.",
+			"connectionHint": "Отправляйте события задач на ваш эндпоинт в формате JSON. Подписанный заголовок X-Kaneo-Signature включается, если настроен секрет.",
 			"connected": "Подключён",
 			"paused": "Приостановлен",
 			"webhookLabel": "URL эндпоинта",
@@ -952,7 +954,7 @@
 			"webhookHint": "bizcore FLOW отправляет POST-запросы с JSON-данными для каждого включённого события.",
 			"secretLabel": "Секрет подписи",
 			"secretPlaceholder": "Необязательный общий секрет",
-			"secretHint": "Необязательно. Если задан, bizcore FLOW подписывает тело запроса и отправляет hex-дайджест в заголовке X-bizcore FLOW-Signature.",
+			"secretHint": "Необязательно. Если задан, bizcore FLOW подписывает тело запроса и отправляет hex-дайджест в заголовке X-Kaneo-Signature.",
 			"secretHintConfigured": "Секрет подписи уже настроен ({{secret}}). Введите новый для замены.",
 			"eventsTitle": "Уведомления о событиях",
 			"eventsHint": "Выберите, какие изменения проекта должны вызывать исходящие вебхуки.",
