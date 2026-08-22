@@ -363,7 +363,7 @@ async function sendWebhookNotification(input: {
   };
 
   if (input.secret) {
-    headers["X-bizcore FLOW-Signature"] = createHmac("sha256", input.secret)
+    headers["X-Kaneo-Signature"] = createHmac("sha256", input.secret)
       .update(body)
       .digest("hex");
   }

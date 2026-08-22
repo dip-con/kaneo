@@ -590,7 +590,7 @@ export function createApp() {
       Sentry.setUser(null);
       try {
         await authenticateApiRequest(c);
-        const windowId = c.req.header("X-bizcore FLOW-Window-Id");
+        const windowId = c.req.header("X-Kaneo-Window-Id");
         const userId = c.get("userId");
         const initiatorId = windowId ? `${userId}:${windowId}` : userId;
         return await eventContext.run({ initiatorId }, next);
