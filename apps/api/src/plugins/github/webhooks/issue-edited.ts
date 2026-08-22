@@ -104,7 +104,7 @@ export async function handleIssueEdited(payload: IssueEditedPayload) {
           lastTitleSync.value === issue.title &&
           lastTitleSync.source === "kaneo"
         ) {
-          console.log("Skipping title update - already synced from Kaneo");
+          console.log("Skipping title update - already synced from bizcore FLOW");
           shouldUpdateTitle = false;
         }
 
@@ -143,7 +143,7 @@ export async function handleIssueEdited(payload: IssueEditedPayload) {
           lastDescSync.source === "kaneo"
         ) {
           console.log(
-            "Skipping description update - already synced from Kaneo",
+            "Skipping description update - already synced from bizcore FLOW",
           );
           shouldUpdateDescription = false;
         }

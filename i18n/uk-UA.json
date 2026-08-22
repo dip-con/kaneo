@@ -1,6 +1,6 @@
 {
 	"common": {
-		"appName": "Kaneo",
+		"appName": "bizcore FLOW",
 		"actions": {
 			"cancel": "Скасувати",
 			"close": "Закрити",
@@ -196,7 +196,7 @@
 			"toggleMessage": "Вже маєте обліковий запис?",
 			"toggleLink": "Увійти",
 			"instanceStatusError": "Не вдалося зв'язатися із сервером. Повторіть спробу за мить.",
-			"instanceAdminTitle": "Налаштуйте ваш інстанс Kaneo",
+			"instanceAdminTitle": "Налаштуйте ваш інстанс bizcore FLOW",
 			"instanceAdminSubtitle": "Цей обліковий запис стане адміністратором інстансу з повним доступом."
 		},
 		"verifyOtp": {
@@ -254,7 +254,7 @@
 			"workspaceLabel": "Робочий простір: {{workspaceName}}",
 			"joinWorkspace": "Приєднатися до {{workspaceName}}",
 			"inviteBodySignedIn": "<inviter>{{inviterName}}</inviter> запросив вас приєднатися до свого робочого простору.",
-			"inviteBodySignedOut": "<inviter>{{inviterName}}</inviter> запросив вас приєднатися до свого робочого простору в Kaneo.",
+			"inviteBodySignedOut": "<inviter>{{inviterName}}</inviter> запросив вас приєднатися до свого робочого простору в bizcore FLOW.",
 			"createAccountOrSignIn": "Створіть обліковий запис, щоб прийняти це запрошення, або увійдіть, якщо він у вас вже є.",
 			"createAccount": "Створити обліковий запис",
 			"accepting": "Приймається...",
@@ -270,7 +270,7 @@
 			}
 		},
 		"onboarding": {
-			"pageTitle": "Ласкаво просимо до Kaneo",
+			"pageTitle": "Ласкаво просимо до bizcore FLOW",
 			"workspacePageTitle": "Створення робочого простору",
 			"createWorkspaceTitle": "Створити робочий простір",
 			"createWorkspaceSubtitle": "Налаштуйте робочий простір, щоб почати керувати проєктами",
@@ -362,7 +362,7 @@
 		"notificationsPage": {
 			"pageTitle": "Сповіщення",
 			"title": "Сповіщення",
-			"subtitle": "Оберіть, як Kaneo надсилатиме сповіщення вашого облікового запису та які канали використовувати.",
+			"subtitle": "Оберіть, як bizcore FLOW надсилатиме сповіщення вашого облікового запису та які канали використовувати.",
 			"statusConnected": "Підключено",
 			"statusPaused": "Призупинено",
 			"emailTitle": "Електронна пошта",
@@ -398,7 +398,7 @@
 			"webhookUrlPlaceholder": "https://example.com/webhooks/kaneo",
 			"webhookSecretPlaceholder": "Необов'язковий спільний секрет",
 			"webhookSecretHintConfigured": "Секрет підпису вже налаштовано ({{masked}}). Введіть новий, щоб замінити його.",
-			"webhookSecretHintOptional": "Необов'язково. Kaneo підписує тіло запиту, коли секрет встановлено.",
+			"webhookSecretHintOptional": "Необов'язково. bizcore FLOW підписує тіло запиту, коли секрет встановлено.",
 			"connectWebhook": "Підключити вебхук",
 			"workspaceRulesTitle": "Правила доставки по робочих просторах",
 			"workspaceRulesDescription": "Використовуйте ваші глобальні канали, а потім визначте, які робочі простори та проєкти можуть надсилати сповіщення облікового запису.",
@@ -463,7 +463,7 @@
 		},
 		"preferencesPage": {
 			"title": "Налаштування",
-			"subtitle": "Налаштуйте Kaneo під себе.",
+			"subtitle": "Налаштуйте bizcore FLOW під себе.",
 			"appearanceTitle": "Вигляд",
 			"appearanceSubtitle": "Візуальні налаштування та налаштування макета.",
 			"theme": "Тема",
@@ -507,7 +507,7 @@
 			"title": "Налаштування розробника",
 			"subtitle": "Керуйте вашими API-ключами та ресурсами для розробників.",
 			"apiKeysCardTitle": "API-ключі",
-			"apiKeysCardDescription": "Створюйте та керуйте API-ключами для програмного доступу до Kaneo.",
+			"apiKeysCardDescription": "Створюйте та керуйте API-ключами для програмного доступу до bizcore FLOW.",
 			"createApiKey": "Створити API-ключ",
 			"unnamedKey": "Ключ без назви"
 		},
@@ -546,7 +546,7 @@
 			},
 			"createDialog": {
 				"title": "Створити API-ключ",
-				"description": "Створіть новий API-ключ для програмного доступу до Kaneo API.",
+				"description": "Створіть новий API-ключ для програмного доступу до bizcore FLOW API.",
 				"nameLabel": "Назва",
 				"namePlaceholder": "Мій API-ключ",
 				"nameDescription": "Описова назва для цього API-ключа",
@@ -738,7 +738,7 @@
 				"removeError": "Не вдалося видалити інтеґрацію з GitHub",
 				"issuesImported": "Issues успішно імпортовано",
 				"importError": "Не вдалося імпортувати issues",
-				"commentOnEnabled": "Kaneo коментуватиме посилання на завдання в нових issues",
+				"commentOnEnabled": "bizcore FLOW коментуватиме посилання на завдання в нових issues",
 				"commentOnDisabled": "Коментарі з посиланнями на завдання в нових issues вимкнено",
 				"settingsUpdateError": "Не вдалося оновити інтеґрацію з GitHub"
 			},
@@ -749,8 +749,8 @@
 			"badgeNotConnected": "Не підключено",
 			"repository": "Репозиторій",
 			"repositoryHint": "Підключений репозиторій GitHub",
-			"commentTaskLinkTitle": "Коментувати посилання Kaneo в нових issues",
-			"commentTaskLinkHint": "Коли увімкнено, Kaneo публікує коментар у кожному новому GitHub issue з посиланням на завдання.",
+			"commentTaskLinkTitle": "Коментувати посилання bizcore FLOW в нових issues",
+			"commentTaskLinkHint": "Коли увімкнено, bizcore FLOW публікує коментар у кожному новому GitHub issue з посиланням на завдання.",
 			"appStatusTitle": "Статус GitHub App",
 			"appStatusHint": "Статус встановлення та дозволів",
 			"statusProperlyConfigured": "Налаштовано правильно",
@@ -801,7 +801,7 @@
 				"removeError": "Не вдалося видалити інтеґрацію з Gitea",
 				"issuesImported": "Issues успішно імпортовано",
 				"importError": "Не вдалося імпортувати issues",
-				"commentOnEnabled": "Kaneo коментуватиме посилання на завдання в нових issues",
+				"commentOnEnabled": "bizcore FLOW коментуватиме посилання на завдання в нових issues",
 				"commentOnDisabled": "Коментарі з посиланнями на завдання в нових issues вимкнено",
 				"settingsUpdateError": "Не вдалося оновити інтеґрацію з Gitea",
 				"secretCopied": "Скопійовано",
@@ -819,8 +819,8 @@
 			"badgeNotConnected": "Не підключено",
 			"repository": "Репозиторій",
 			"repositoryHint": "Пов'язаний Gitea-репозиторій",
-			"commentTaskLinkTitle": "Коментувати посилання Kaneo в нових issues",
-			"commentTaskLinkHint": "Коли увімкнено, Kaneo публікує коментар у кожному новому issue з посиланням на завдання.",
+			"commentTaskLinkTitle": "Коментувати посилання bizcore FLOW в нових issues",
+			"commentTaskLinkHint": "Коли увімкнено, bizcore FLOW публікує коментар у кожному новому issue з посиланням на завдання.",
 			"webhookTitle": "Вебхук",
 			"webhookHint": "У вашому Gitea-репозиторії додайте вебхук із цією URL-адресою та секретом. Увімкніть push, pull request, issues, коментарі до issues та create (для міток).",
 			"webhookSecretLabel": "Секрет (має збігатися з секретом вебхука в Gitea)",
@@ -944,15 +944,15 @@
 				"removeError": "Не вдалося видалити загальний вебхук"
 			},
 			"connectionTitle": "Підключення вихідного вебхука",
-			"connectionHint": "Надсилайте події завдань на вашу кінцеву точку у форматі JSON. Підписаний заголовок X-Kaneo-Signature включається, коли секрет налаштовано.",
+			"connectionHint": "Надсилайте події завдань на вашу кінцеву точку у форматі JSON. Підписаний заголовок X-bizcore FLOW-Signature включається, коли секрет налаштовано.",
 			"connected": "Підключено",
 			"paused": "Призупинено",
 			"webhookLabel": "URL кінцевої точки",
 			"webhookPlaceholder": "https://example.com/webhooks/kaneo",
-			"webhookHint": "Kaneo надсилає POST-запити з JSON-тілом для кожної увімкненої події.",
+			"webhookHint": "bizcore FLOW надсилає POST-запити з JSON-тілом для кожної увімкненої події.",
 			"secretLabel": "Секрет підпису",
 			"secretPlaceholder": "Необов'язковий спільний секрет",
-			"secretHint": "Необов'язково. Якщо вказано, Kaneo підписує тіло запиту та надсилає hex-дайджест у заголовку X-Kaneo-Signature.",
+			"secretHint": "Необов'язково. Якщо вказано, bizcore FLOW підписує тіло запиту та надсилає hex-дайджест у заголовку X-bizcore FLOW-Signature.",
 			"secretHintConfigured": "Секрет підпису вже налаштовано ({{secret}}). Введіть новий, щоб замінити його.",
 			"eventsTitle": "Сповіщення про події",
 			"eventsHint": "Оберіть, які зміни в проєкті мають ініціювати вихідні вебхуки.",
@@ -1006,7 +1006,7 @@
 			"threadIdHint": "Необов'язково. Використовуйте для тем форуму всередині груп Telegram.",
 			"chatLabelLabel": "Підпис чату",
 			"chatLabelPlaceholder": "Оновлення розробки",
-			"chatLabelHint": "Необов'язковий підпис для зручності всередині Kaneo.",
+			"chatLabelHint": "Необов'язковий підпис для зручності всередині bizcore FLOW.",
 			"eventsTitle": "Сповіщення про події",
 			"eventsHint": "Оберіть, які зміни в проєкті мають публікуватися в Telegram.",
 			"events": {
@@ -1970,14 +1970,14 @@
 	},
 	"invitations": {
 		"email": {
-			"subject": "{{inviterName}} запрошує вас приєднатися до {{workspaceName}} у Kaneo",
-			"preview": "Вас запрошено до {{workspaceName}} у Kaneo",
+			"subject": "{{inviterName}} запрошує вас приєднатися до {{workspaceName}} у bizcore FLOW",
+			"preview": "Вас запрошено до {{workspaceName}} у bizcore FLOW",
 			"title": "Приєднуйтесь до {{workspaceName}}",
-			"subtitle": "{{inviterName}} ({{inviterEmail}}) запрошує вас до співпраці в Kaneo.",
+			"subtitle": "{{inviterName}} ({{inviterEmail}}) запрошує вас до співпраці в bizcore FLOW.",
 			"cta": "Прийняти запрошення",
 			"sameEmail": "Ви можете прийняти запрошення з тієї самої адреси електронної пошти, на яку надійшов цей лист.",
 			"ignore": "Якщо ви не очікували цього листа, просто проігноруйте його.",
-			"footer": "Запрошення до робочого простору Kaneo"
+			"footer": "Запрошення до робочого простору bizcore FLOW"
 		},
 		"pageTitle": "Запрошення",
 		"pendingInvitations": "Очікуючі запрошення",

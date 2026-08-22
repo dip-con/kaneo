@@ -100,7 +100,7 @@ function buildDeliveryContent(notification: {
         title: "New task created",
         body: taskTitle
           ? `A new task was created: ${taskTitle}`
-          : "A new task was created in Kaneo.",
+          : "A new task was created in bizcore FLOW.",
       };
     }
     case "workspace_created": {
@@ -112,7 +112,7 @@ function buildDeliveryContent(notification: {
         title: "Workspace created",
         body: workspaceName
           ? `Workspace created: ${workspaceName}`
-          : "A new workspace was created in Kaneo.",
+          : "A new workspace was created in bizcore FLOW.",
       };
     }
     case "task_status_changed": {
@@ -124,7 +124,7 @@ function buildDeliveryContent(notification: {
         body:
           taskTitle && oldStatus && newStatus
             ? `${taskTitle} moved from ${oldStatus} to ${newStatus}.`
-            : "A task status changed in Kaneo.",
+            : "A task status changed in bizcore FLOW.",
       };
     }
     case "task_assignee_changed": {
@@ -133,7 +133,7 @@ function buildDeliveryContent(notification: {
         title: "Task assigned to you",
         body: taskTitle
           ? `You were assigned to ${taskTitle}.`
-          : "A task was assigned to you in Kaneo.",
+          : "A task was assigned to you in bizcore FLOW.",
       };
     }
     case "time_entry_created": {
@@ -142,7 +142,7 @@ function buildDeliveryContent(notification: {
         title: "Time entry created",
         body: taskTitle
           ? `A time entry was created for ${taskTitle}.`
-          : "A time entry was created in Kaneo.",
+          : "A time entry was created in bizcore FLOW.",
       };
     }
     case "due_date_reminder": {
@@ -178,7 +178,7 @@ function buildDeliveryContent(notification: {
           : "You were mentioned",
         body: taskTitle
           ? `You were mentioned in ${taskTitle}.`
-          : "You were mentioned in a Kaneo task.",
+          : "You were mentioned in a bizcore FLOW task.",
       };
     }
     case "task_comment": {
@@ -193,13 +193,13 @@ function buildDeliveryContent(notification: {
           : "New task comment",
         body: taskTitle
           ? `A new comment was added to ${taskTitle}.`
-          : "A new comment was added to a Kaneo task.",
+          : "A new comment was added to a bizcore FLOW task.",
       };
     }
     default:
       return {
-        title: notification.title ?? "New Kaneo notification",
-        body: notification.content ?? "You have a new notification in Kaneo.",
+        title: notification.title ?? "New bizcore FLOW notification",
+        body: notification.content ?? "You have a new notification in bizcore FLOW.",
       };
   }
 }
@@ -363,7 +363,7 @@ async function sendWebhookNotification(input: {
   };
 
   if (input.secret) {
-    headers["X-Kaneo-Signature"] = createHmac("sha256", input.secret)
+    headers["X-bizcore FLOW-Signature"] = createHmac("sha256", input.secret)
       .update(body)
       .digest("hex");
   }
@@ -511,7 +511,7 @@ export async function deliverNotification(
         title: content.title,
         message: content.body,
         actionUrl: context.taskUrl,
-        actionLabel: context.taskUrl ? "Open in Kaneo" : undefined,
+        actionLabel: context.taskUrl ? "Open in bizcore FLOW" : undefined,
         locale: user.locale ?? null,
       }).then(() => undefined),
     );

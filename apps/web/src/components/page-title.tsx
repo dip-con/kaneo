@@ -8,7 +8,7 @@ type PageTitleProps = {
 
 export default function PageTitle({
   title,
-  suffix = "Kaneo",
+  suffix = "bizcore FLOW",
   hideAppName = false,
 }: PageTitleProps) {
   useEffect(() => {
